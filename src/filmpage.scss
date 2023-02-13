@@ -1,0 +1,208 @@
+//BASIC PAGE BLOCKS, DO NOT CHANGE -----------------------------------------------------------------------------
+
+.film-page {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+
+  justify-content: space-around;
+  width: 100%;
+  height: auto;
+ 
+
+  @media screen and (min-width: 1500px) {
+    width: 1440px;
+    margin: 0 auto;
+  }
+}
+//----------------------------------------------------------------------------------------------------------
+//here you can add blocks  -->
+
+.film-page__11 {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  max-width: 63vw;
+  padding-top: 18%;
+  align-self: center;
+  align-items: flex-start;
+  
+
+  @media screen and (min-width: 1500px) {
+    max-width: 35vw;
+  }
+
+  @media screen and (max-width: 740px) {
+    max-width: 100%;
+    align-self: center;
+    padding-bottom: 25%;
+  }
+}
+
+
+
+.film-page__10 {
+  flex-direction: column;
+  align-self: flex-end;
+  max-width: 55vw;
+  padding-top: 7%;
+  padding-right: 10%;
+  align-items: flex-start;
+  
+
+  @media screen and (min-width: 1500px) {
+    padding-right: 5%;
+    max-width: 32vw;
+  }
+
+  @media screen and (max-width: 740px) {
+    max-width: 100%;
+    align-self: center;
+    padding-bottom: 15%;
+    padding-right: 0%;
+
+  }
+}
+
+.film-page__8 {
+  flex-direction: column;
+  align-self: center;
+  max-width: 63vw;
+  padding-top: 12%;
+  align-items: flex-start;
+
+  @media screen and (min-width: 1500px) {
+    max-width: 35vw;
+  }
+
+  @media screen and (max-width: 740px) {
+    max-width: 100%;
+    align-self: center;
+    padding-bottom: 15%;
+
+  }
+}
+
+.film-page__7 {
+  flex-direction: column;
+  max-width: 57vw;
+  padding-top: 12%;
+  align-items: flex-start;
+  @media screen and (min-width: 1500px) {
+    max-width: 35vw;
+    padding-left: 5%;
+  }
+
+  @media screen and (max-width: 740px) {
+    max-width: 100%;
+    align-self: center;
+    padding-bottom: 15%;
+  }
+}
+
+.film-page__6 {
+  flex-direction: column;
+  align-self: flex-end;
+  max-width: 63vw;
+  padding-top: 12%;
+  padding-bottom: 5%;
+  align-items: flex-start;
+  @media screen and (min-width: 1500px) {
+    max-width: 35vw;
+  }
+
+  @media screen and (max-width: 740px) {
+    max-width: 100%;
+    align-self: center;
+    padding-bottom: 15%;
+  }
+}
+
+.film-page__9 {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.film-page__5 {
+  flex-direction: column;
+  align-self: flex-start;
+  max-width: 63vw;
+  padding-top: 12%;
+  padding-bottom: 10%;
+  align-items: flex-start;
+
+  @media screen and (min-width: 1500px) {
+    max-width: 35vw;
+  }
+  @media screen and (max-width: 740px) {
+   max-width: 100%;
+    align-self: center;
+    padding-bottom: 15%;
+  }
+}
+
+.film-page__4 {
+  flex-direction: column;
+  align-self: center;
+  max-width: 63vw;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  align-items: flex-start;
+
+  @media screen and (min-width: 1500px) {
+    max-width: 35vw;
+  }
+
+  @media screen and (max-width: 740px) {
+    max-width: 100%;
+    align-self: center;
+    padding-bottom: 15%;
+  }
+}
+
+//BASIC PAGE BLOCKS, DO NOT CHANGE ----------------------------------------------------------------------------->
+
+.film-page__9 {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+.film-page__3 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-shrink: 1;
+
+  @media screen and (max-width: 740px) {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 100%;
+    padding-bottom: 10%;
+  }
+}
+.film-page__2 {
+  animation: moveUp 1s ease-in-out forwards !important;
+  display: flex;
+  justify-content: center;
+  height: auto;
+  padding-top: 10.9vw;
+  padding-bottom: 12.5vw;
+  flex-shrink: 1;
+  flex: 1;
+
+  @media screen and (max-width: 1024px) {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+
+}
+//<----------------------------------------------------------------------------------------------------------

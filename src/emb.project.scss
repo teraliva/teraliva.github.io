@@ -1,0 +1,224 @@
+ .emb-project-page{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  height: auto;
+  flex: 0;
+ }
+ 
+ .emb-project-page__2{
+  display: flex;
+  flex-direction: column;
+  justify-self: center;
+  align-self: center;
+  height: auto;
+  padding-top: 156px;
+  padding-bottom: 180px;
+  flex-shrink: 1;
+  flex: 1;
+
+  @media screen and (max-width: 1024px) {
+  padding-top: 120px;
+  padding-bottom: 120px;
+  }
+
+  @media screen and (min-width: 1920px) {
+    padding-top: 10vw;
+    padding-bottom: 10vw;
+   }
+ }
+
+ .emb-project-page__3{
+    display: flex;
+    justify-content: space-between;
+    flex-shrink: 1;
+    @media screen and (max-width: 740px) {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      align-self: center;
+  
+    }
+ }
+ .emb-project-page__3__1{
+    
+    width: 40%;
+    @media screen and (max-width: 740px) {
+      width: 100%;
+    }
+ }
+
+ .emb-project-page__3__2{
+    width: 60%;
+    @media screen and (max-width: 740px) {
+      width: 100%;
+    }
+ }
+
+ .emb-project-page__4{
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    flex-shrink: 1;
+  
+    
+
+    @media screen and (min-width: 1500px) {
+      max-width: 30vw;
+      padding-right: 5%;
+    }
+     @media screen and (max-width: 740px) {
+      width: 100%;
+      align-self: center;
+      padding-top: 15%;
+    }
+  }
+  
+  .emb-project-page__5 {
+    display: flex;
+    flex-direction: column;
+    align-self: flex-end;
+    padding-top: 5%;
+    padding-bottom: 10%;
+    flex-shrink: 1;
+ 
+
+    @media screen and (min-width: 1500px) {
+      max-width: 35vw;
+    }
+     @media screen and (max-width: 740px) {
+      width: 100%;
+      align-self: center;
+      padding-top: 15%;
+    }
+  }
+  
+  .emb-project-page__6{
+  
+ 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-self: center;
+  padding-top: 5%;
+  
+
+  @media screen and (min-width: 1500px) {
+    max-width: 30vw;
+  }
+   @media screen and (max-width: 740px) {
+    width: 100%;
+    align-self: center;
+    padding-top: 15%;
+  }
+  }
+
+  .emb-project-page__7{
+  display: flex;
+  flex-direction: column;
+  align-self: flex-start;
+
+  padding-top: 10%;
+  flex-shrink: 1;
+  padding-bottom: 5%;
+
+  @media screen and (min-width: 1500px) {
+    max-width: 35vw;
+    padding-left: 5%;
+  }
+   @media screen and (max-width: 740px) {
+    width: 100%;
+    align-self: center;
+    padding-top: 15%;
+  }
+  }
+  
+  .emb-project-page__8{
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    
+
+    @media screen and (min-width: 1500px) {
+      max-width: 30vw;
+    }
+    @media screen and (max-width: 740px) {
+      width: 100%;
+      align-self: center;
+      padding-top: 15%;
+      
+    }
+  }
+
+  .emb-project-page__9 {
+
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  
+  .emb-project-page__10{
+    display: flex;
+    flex-direction: column;
+    align-self: flex-end;
+    padding-top:10%;
+    padding-bottom: 10%;
+    flex-shrink: 1;
+    
+
+    @media screen and (min-width: 1500px) {
+      max-width: 30vw;
+    }
+    @media screen and (max-width: 740px) {
+      width: 100%;
+      align-self: center;
+      padding-top: 15%;
+    }
+  }
+  
+  .emb-project-page__11{
+    display: flex;
+    flex-direction: column;
+    padding-top: 12%;
+    padding-bottom: 10%;
+    align-self: flex-start;
+
+    @media screen and (min-width: 1500px) {
+      max-width: 32vw;
+    }
+     @media screen and (max-width: 740px) {
+      width: 100%;
+      align-self: center;
+      padding-top: 15%;
+    }
+  }
+
+ 
+  
+  .emb-project-page__12{
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    padding-top: 12%;
+    padding-bottom: 5%;
+    flex-shrink: 1;
+    
+    @media screen and (min-width: 1500px) {
+      max-width: 30vw;
+    }
+    @media screen and (max-width: 740px) {
+      width: 100%;
+      align-self: center;
+      padding-top: 15%;
+    }
+  }
+
+ 

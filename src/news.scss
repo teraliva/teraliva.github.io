@@ -1,0 +1,211 @@
+//BASIC PAGE BLOCKS, DO NOT CHANGE ----------------------------------------------------------------------------->
+.news-page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  height: auto;
+  flex: 0;
+}
+
+.news-page__1 {
+  animation: moveUp 1s ease-in-out forwards !important;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: auto;
+  padding-top: 10vw;
+  padding-bottom: 12.5vw;
+  flex-shrink: 1;
+  flex: 1;
+
+  @media screen and (max-width: 740px) {
+    max-width: 100%;
+    padding-top: 10%;
+  }
+
+  @media screen and (max-width: 1024px) {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+}
+
+//----------------------------------------------------------------------------------------------------------
+//here you can add blocks  -->
+
+
+.news-page__10{
+  display: flex;
+  flex-direction: column;
+  align-self: flex-end;
+  max-width: 40vw;
+  padding-right: 10%;
+  padding-bottom: 10%;
+  align-items: flex-start;
+
+  @media screen and (max-width: 740px) {
+    padding-left: 0;
+    align-self: center;
+    max-width: 100%;
+    padding-top: 10%;
+  }
+}
+.news-page__9 {
+  display: flex;
+  flex-direction: column;
+  max-width: 40vw;
+  padding-bottom: 10%;
+  align-self: center;
+  align-items: flex-start;
+
+  @media screen and (max-width: 740px) {
+    align-self: center;
+    max-width: 100%;
+    padding-top: 10%;
+  }
+
+  @media screen and (min-width: 1500px) {
+    max-width: 30vw;
+  }
+}
+
+.news-page__8 {
+  display: flex;
+  flex-direction: column;
+  max-width: 35vw;
+  padding-left: 5%;
+  padding-bottom: 10%;
+  align-items: flex-start;
+
+  @media screen and (max-width: 740px) {
+    padding-left: 0;
+    align-self: center;
+    max-width: 100%;
+    padding-top: 10%;
+  }
+
+  @media screen and (min-width: 1500px) {
+    max-width: 30vw;
+  }
+}
+
+.news-page__7 {
+  display: flex;
+  flex-direction: column;
+  align-self: flex-end;
+  max-width: 40vw;
+  padding-left: 15%;
+  padding-bottom: 10%;
+  align-items: flex-start;
+
+  @media screen and (max-width: 740px) {
+    padding-left: 0;
+    align-self: center;
+    max-width: 100%;
+    padding-top: 10%;
+  }
+
+  @media screen and (min-width: 1500px) {
+    max-width: 30vw;
+  }
+}
+
+.news-page__6 {
+  display: flex;
+  flex-direction: column;
+  max-width: 40vw;
+  padding-bottom: 10%;
+  align-self: center;
+  align-items: flex-start;
+
+  @media screen and (max-width: 740px) {
+    align-self: center;
+    max-width: 100%;
+    padding-top: 10%;
+  }
+
+  @media screen and (min-width: 1500px) {
+    max-width: 30vw;
+  }
+}
+
+.news-page__5 {
+  display: flex;
+  flex-direction: column;
+  align-self: flex-end;
+  max-width: 40vw;
+  padding-bottom: 10%;
+  padding-left: 10%;
+  align-items: flex-start;
+
+  @media screen and (max-width: 740px) {
+    padding-left: 0;
+    align-self: center;
+    max-width: 100%;
+    padding-top: 10%;
+  }
+
+  @media screen and (min-width: 1500px) {
+    max-width: 30vw;
+  }
+}
+
+.news-page__4 {
+  display: flex;
+  flex-direction: column;
+  max-width: 40vw;
+  padding-right: 5%;
+  padding-bottom: 10%;
+  align-items: flex-start;
+
+  @media screen and (max-width: 740px) {
+    padding-right: 0;
+    align-self: center;
+    max-width: 100%;
+    padding-top: 10%;
+  }
+
+  @media screen and (min-width: 1500px) {
+    max-width: 30vw;
+  }
+}
+
+.news-page__3 {
+  display: flex;
+  flex-direction: column;
+  max-width: 40vw;
+  padding-bottom: 10%;
+  align-self: center;
+  align-items: flex-start;
+
+  @media screen and (max-width: 740px) {
+    align-self: center;
+    max-width: 100%;
+    padding-top: 10%;
+  }
+
+  @media screen and (min-width: 1500px) {
+    max-width: 30vw;
+  }
+}
+
+.news-page__2 {
+  display: flex;
+  flex-direction: column;
+  max-width: 40vw;
+  padding-bottom: 10%;
+  padding-right: 5%;
+  align-items: flex-start;
+
+  @media screen and (max-width: 740px) {
+    align-self: center;
+    max-width: 100%;
+    padding-top: 10%;
+    padding-right: 0;
+  }
+
+  @media screen and (min-width: 1500px) {
+    max-width: 30vw;
+  }
+
+}

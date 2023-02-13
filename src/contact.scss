@@ -1,0 +1,133 @@
+.contact-page-low {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    align-items: flex-end;
+
+    @media screen and (max-width: 1000px) {
+        justify-content: space-between;
+    }
+
+    @media screen and (max-width: 740px) {
+        // flex-direction: column;
+        // align-items: flex-start;
+        // justify-content: flex-end;
+
+        display: flex;
+        flex-direction: column;
+        height: 75vh;
+       
+        position: fixed;
+        bottom: 0;
+       justify-content: center;
+        align-items: flex-start;
+    }
+}
+
+.contact-page-low__1 {
+    height: 286px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    @media screen and (max-width: 740px) {
+        width: 80%;
+        // justify-content: flex-end;
+        padding-bottom: 150px;
+        
+    }
+}
+
+.contact-page-low__2 {
+    height: 286px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-left: 40px;
+
+    @media screen and (max-width: 740px) {
+        padding-left: 0;
+        // justify-content: flex-end;
+        height: 200px;
+        padding-bottom: 10%;
+    }
+
+}
+
+p.contact-link {
+    font-family: 'Inter', sans-serif;
+    font-size: 47px;
+    font-weight: 600;
+    line-height: 56.35px;
+    letter-spacing: -0.01em;
+    text-align: left;
+    padding-top: 20px;
+
+
+
+    @media screen and (max-width: 1200px) {
+        font-size: 35px;
+        line-height: 50px;
+    }
+
+    @media screen and (max-width: 1010px) {
+        font-size: 25px;
+        line-height: 40px;
+    }
+
+    @media screen and (max-width: 740px) {
+        padding-bottom: 5%;
+    }
+}
+
+.contact-page__text {
+    max-width: 461px;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 35px;
+    letter-spacing: -0.01em;
+    text-align: left;
+    @media screen and (max-width: 740px) {
+        width: 95vw;
+    }
+}
+
+
+p.heading_italic {
+    font-size: 152px;
+    font-family: 'Times', sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    padding-bottom: 11px;
+    letter-spacing: -0.05em;
+
+    @media screen and (max-width: 1200px) {
+        font-size: 130px;
+        line-height: 145px;
+
+    }
+
+    @media screen and (max-width: 1010px) {
+        font-size: 110px;
+        line-height: 125px;
+
+    }
+    @media screen and (max-width: 740px) {
+        font-size: 80px;
+        line-height: 125px;
+
+    }
+}
+
+p.contact-page {
+    width: 461px;
+    font-family: 'Inter', sans-serif;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 25px;
+    letter-spacing: -0.01em;
+    text-align: left;
+}

@@ -1,0 +1,85 @@
+.aboutme-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    flex: 0;
+
+}
+
+.aboutme-image {
+
+    justify-self: center;
+    align-self: center;
+    width: 40%;
+
+    justify-self: center;
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 1;
+    @media screen and (min-width: 1500px) {
+        width: 30vw;
+    }
+    @media screen and (max-width: 740px) {
+        width: 100%;
+    }
+}
+
+.aboutme-image-2 {
+    width: 60vw;
+    align-self: center;
+    padding-bottom: 5%;
+    @media screen and (min-width: 1500px) {
+        width: 40vw;
+    }
+    @media screen and (max-width: 740px) {
+        width: 100%;
+    }
+}
+
+.aboutme-page__3 {
+
+    display: flex;
+    justify-content: space-between;
+    flex-shrink: 1;
+    padding-block: 18%;
+    gap: 10px;
+    position: relative;
+
+    @media screen and (max-width: 740px) {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        align-self: center;
+
+    }
+}
+
+.aboutme-page__3__1 {
+    padding-top: 10px;
+    width: 40vw;
+
+    @media screen and (max-width: 740px) {
+        width: 100%;
+    }
+
+}
+
+.aboutme-page__3__2 {
+    width: 60vw;
+
+    @media screen and (max-width: 740px) {
+        width: 100%;
+    }
+}
+
+.aboutme-page__9 {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
