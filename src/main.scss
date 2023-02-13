@@ -229,6 +229,8 @@ body {
   margin-top: 0;
   z-index: 11111;
   transition: transform 1s ease-in-out;
+  transition: opacity 1s ease;
+  opacity: 1;
   inset: 0;
 }
 
@@ -239,7 +241,12 @@ body {
 // }
 
 .preloader_hidden {
-  transform: translateY(-120%);
+  
+  opacity: 0;
+                                                                                                                                                                                                                                                                                 
+  transition: opacity 1s ease, transform 1s ease;
+  
+  
 
   @media screen and (max-width: 740px) {
     transform: translateY(-120%);
